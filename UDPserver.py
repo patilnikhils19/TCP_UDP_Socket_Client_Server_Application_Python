@@ -48,7 +48,6 @@ def server():
                 print "server is working"
           sock.close()
 
-
 if __name__ == '__main__':
 
           parser = argparse.ArgumentParser()#Define the argument perser
@@ -56,10 +55,6 @@ if __name__ == '__main__':
           args = parser.parse_args()
           if not args.port :
                  print("Need Port number")
-
           else :
                 server()#Run server
-
-
-
 

@@ -36,10 +36,7 @@ def client():
     sock.close()
 
 
-
 if __name__ == '__main__':
-
-
 
           parser = argparse.ArgumentParser()#Define argument parser
           parser.add_argument("-s","--serverIP",help="Server IP address",type=str)
