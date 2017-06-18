@@ -69,8 +69,6 @@ def interactive():
 
 if __name__ == '__main__':
 
-
-
           parser = argparse.ArgumentParser()
           parser.add_argument("-s","--serverIP",help="Server IP address",type=str)
           parser.add_argument("-p","--port",help="Port Number",type=int)
